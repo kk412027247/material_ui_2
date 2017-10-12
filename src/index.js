@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import App from './Snackbar';
+import App from './ToolBar';
 import registerServiceWorker from './registerServiceWorker';
 import store from './store'
 import {Provider} from 'react-redux'
+
 
 const Material = () => (
   <Provider store={store}>
